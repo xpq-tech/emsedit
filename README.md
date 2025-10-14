@@ -63,3 +63,9 @@ If you find this repository useful, please cite our paper:
   year={2025}
 }
 ```
+## Acknowledgements
+Our code is built upon the following repositories:
+- [RLEdit](https://github.com/zhrli324/RLEdit)
+- [MALMEN](https://github.com/ChenmienTan/malmen)
+
+We thank the authors for their open-source contributions.
