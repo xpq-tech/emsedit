@@ -1,0 +1,13 @@
+__pycache__/
+wandb/
+outputs/
+checkpoints/
+cache*
+glue_eval/results*
+.vscode
+logs*
+figs
+nohup*
+*.log
+pkls
+.DS_Store

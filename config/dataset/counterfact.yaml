@@ -1,0 +1,5 @@
+name: counterfact
+n_edits: 20
+batch_size: 4
+train_path: data/raw/counterfact/multi_counterfact_train.json
+valid_path: data/raw/counterfact/multi_counterfact_eval.json

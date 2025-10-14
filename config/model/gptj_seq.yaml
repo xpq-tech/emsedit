@@ -1,0 +1,28 @@
+name_or_path: /science/llms/EleutherAI/gpt-j-6B
+name: gptj
+class_name: AutoModelForCausalLM
+model_vec_size: 50400
+edit_modules:
+    # - transformer.h.22.mlp.fc_out
+    # - transformer.h.23.mlp.fc_out
+    # - transformer.h.24.mlp.fc_out
+    # - transformer.h.25.mlp.fc_out
+    # - transformer.h.26.mlp.fc_out
+    # - transformer.h.27.mlp.fc_out
+
+
+    - transformer.h.10.mlp.fc_in
+    - transformer.h.12.mlp.fc_in
+    - transformer.h.14.mlp.fc_in
+    - transformer.h.16.mlp.fc_in
+    # - transformer.h.18.mlp.fc_out
+    # - transformer.h.20.mlp.fc_out
+    # - transformer.h.22.mlp.fc_out
+    # - transformer.h.24.mlp.fc_out
+    # - transformer.h.26.mlp.fc_out
+    - transformer.h.18.mlp.fc_in
+    - transformer.h.20.mlp.fc_in
+    - transformer.h.22.mlp.fc_in
+    - transformer.h.24.mlp.fc_in
+    - transformer.h.26.mlp.fc_in
+half: True

@@ -1,0 +1,15 @@
+name_or_path: /data/llms/gpt2-xl
+name: gpt2-xl
+model_vec_size: 50257
+class_name: AutoModelForCausalLM
+edit_modules:
+- transformer.h.6.mlp.c_proj
+- transformer.h.7.mlp.c_proj
+- transformer.h.8.mlp.c_proj
+- transformer.h.9.mlp.c_proj
+- transformer.h.10.mlp.c_proj
+- transformer.h.11.mlp.c_proj
+# - transformer.h.9.mlp.c_fc
+# - transformer.h.10.mlp.c_fc
+# - transformer.h.11.mlp.c_fc
+half: False

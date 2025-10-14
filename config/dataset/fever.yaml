@@ -1,0 +1,5 @@
+name: fever
+n_edits: 20
+batch_size: 4
+train_path: data/raw/fever/fever_train.json
+valid_path: data/raw/fever/fever_eval.json

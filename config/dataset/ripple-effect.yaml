@@ -1,0 +1,5 @@
+name: ripple_effect
+n_edits: 20
+batch_size: 4
+train_path: data/raw/ripple_effect/ripple_effect_train.json
+valid_path: data/raw/ripple_effect/ripple_effect_eval.json
