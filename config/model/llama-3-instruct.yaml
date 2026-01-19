@@ -1,4 +1,4 @@
-name_or_path: /science/llms/Meta-Llama-3-8B-Instruct
+name_or_path: /data/llms/Meta-Llama-3-8B-Instruct
 name: llama-3-instruct
 model_vec_size: 18432
 class_name: AutoModelForCausalLM

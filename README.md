@@ -1,5 +1,5 @@
 # EMSEdit
-This is repository for the paper [EMSEdit: Efficient Multi-Step Meta-Learning-based Model Editing](https://arxiv.org/abs/2508.04012).
+This is repository for the paper [EMSEdit: Efficient Multi-Step Meta-Learning-based Model Editing](https://arxiv.org/abs/2508.04012), WWW2026.
 
 ## Setup Instructions
 
@@ -63,9 +63,3 @@ If you find this repository useful, please cite our paper:
   year={2025}
 }
 ```
-## Acknowledgements
-Our code is built upon the following repositories:
-- [RLEdit](https://github.com/zhrli324/RLEdit)
-- [MALMEN](https://github.com/ChenmienTan/malmen)
-
-We thank the authors for their open-source contributions.

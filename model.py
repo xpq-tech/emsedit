@@ -6,10 +6,9 @@ import os
 from omegaconf import DictConfig
 
 import torch
-import torch.nn as nn
 
 import transformers
-from transformers import AutoModel
+
 
 from util import get_module
 

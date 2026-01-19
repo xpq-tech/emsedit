@@ -2,7 +2,7 @@ defaults:
 - _self_
 - dataset: zsre
 - model: gpt2-xl
-- editor: smedit
+- editor: emsedit
 num_seq: 1
 glue_step: -1
 model_device: cuda
